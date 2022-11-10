@@ -22,7 +22,7 @@ class SergArray
         {
             if (myArray[i] % 3 == 0)
             {
-                Console.WriteLine("Значение элемента массива делённого на 3 (индекс " + i + ") = " + myArray[i]);
+                Console.WriteLine("Раз");
             }
         }
         Console.WriteLine();
@@ -31,7 +31,7 @@ class SergArray
         {
             if (myArray[i] % 5 == 0)
             {
-                Console.WriteLine("Значение элемента массива делённого на 5 (индекс " + i + ") = " + myArray[i]);
+                Console.WriteLine("Два");
             }
         }
         Console.WriteLine();
@@ -40,7 +40,7 @@ class SergArray
         {
             if ((myArray[i] % 3 == 0) && (myArray[i] % 5 == 0))
             {
-                Console.WriteLine("Значение элемента массива делённого на 3 и 5 (индекс " + i + ") = " + myArray[i]);
+                Console.WriteLine("РазДва");
             }
         }
 
